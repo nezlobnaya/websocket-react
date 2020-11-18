@@ -11,7 +11,7 @@ function App() {
     client.onopen = () => {
      console.log('WebSocket CLient Connected')
    }
-  })
+  },[])
 
   return (
     <div className="App">
